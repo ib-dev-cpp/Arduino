@@ -21,6 +21,7 @@ except Exception:
     sys.exit(1)
 
 cmdline = []
+binary = ''
 write_option = ''
 write_addr = '0x0'
 erase_addr = ''
