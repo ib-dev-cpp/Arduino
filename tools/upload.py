@@ -21,7 +21,7 @@ except Exception:
     sys.exit(1)
 
 cmdline = []
-binary = ''
+binary = '' # this variable used but not as globale var and it should be a global var!!
 write_option = ''
 write_addr = '0x0'
 erase_addr = ''
